@@ -40,4 +40,11 @@ class LeagueVC: UIViewController {
         player.desiredLeague = leagueType
         nextBtn.isEnabled = true
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // checking the segue for the destination view controller. I created a variable "player" in both of the necessary view controllers. The if let statement is the same as Model model = new Model()
+        if let skillVC = segue.destination as? SkillVCViewController {
+            skillVC.player = player
+        }
+    }
 }
