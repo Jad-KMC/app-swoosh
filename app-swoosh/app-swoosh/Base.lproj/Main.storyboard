@@ -40,6 +40,9 @@
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="0.95065224472734855" green="1" blue="0.95369733005414947" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="LuF-WW-3Yb" kind="show" id="8a0-Su-hPJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IO-7d-eRR">
                                 <rect key="frame" x="57.5" y="145" width="260" height="72"/>
@@ -201,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpJ-eC-V15" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="132"/>
+            <point key="canvasLocation" x="905" y="132"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CBO-Vk-Chf">
@@ -297,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1dp-r2-TEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1549.5999999999999" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1695" y="132"/>
         </scene>
     </scenes>
     <resources>
